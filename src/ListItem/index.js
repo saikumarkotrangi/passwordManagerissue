@@ -44,6 +44,7 @@ export default class ListItem extends Component {
             onClick={this.deletingTheItem}
             className="delete-button-container"
             type="button"
+            data-testid="delete"
           >
             <img
               className="delete-button-image"

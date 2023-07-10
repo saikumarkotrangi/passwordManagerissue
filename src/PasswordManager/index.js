@@ -191,11 +191,7 @@ export default class PasswordManager extends Component {
                 />
               </div>
               <div className="add-button-container">
-                <button
-                  type="submit"
-                  className="add-button"
-                  data-testid="delete"
-                >
+                <button type="submit" className="add-button">
                   Add
                 </button>
               </div>
